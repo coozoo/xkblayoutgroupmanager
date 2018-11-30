@@ -57,6 +57,11 @@ After that you can test script:
 `$ ./layoutgroupmgr.sh`
 
 If it works fine you can bind it to some shortcut.
+
 For example Mate Desktop go to System->Control Center->Keyboard Shortcuts. Press Add and set any name and path to this script
 
+It is allowed backward change (just path some parameter):
 
+`$ ./layoutgroupmgr.sh b`
+
+If your desktop doesn't allow pass argument from shortcut you can use
