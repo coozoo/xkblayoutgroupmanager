@@ -13,19 +13,6 @@ declare -a kbvariantsarr=( ',winkeys' ',' ',' )
 declare -a kboptionsarr=( 'grp:ctrl_shift_toggle,eurosign:e,lv3:ralt_switch' 'grp:ctrl_shift_toggle' 'grp:ctrl_shift_toggle' )
 declare -a vislayoutsarr=( 'US UA' 'PL CZ' 'DE US' )
 
-
-#if [ ! -z $1 ]; then
-#    echo backward
-#    SAVEIFS=$IFS
-#    IFS=$'\n'
-#    kblayoutsarr=( $(printf '%s\n' "${kblayoutsarr[@]}"|tac) )
-#    kbvariantsarr=( $(printf '%s\n' "${kbvariantsarr[@]}"|tac) )
-#    kboptionsarr=( $(printf '%s\n' "${kboptionsarr[@]}"|tac) )
-#    vislayoutsarr=( $(printf '%s\n' "${vislayoutsarr[@]}"|tac) )
-#    IFS=$SAVEIFS
-#fi
-
-#printf '%s\n' "${kblayoutsarr[@]}"
 echo "Groups: ${#kblayoutsarr[@]}"
 
 currentlayout="$(setxkbmap -query|grep layout|awk -F':' {'gsub(/[ \t]+/, "", $2); print $2'})"
