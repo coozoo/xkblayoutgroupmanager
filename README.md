@@ -66,4 +66,5 @@ It is allowed backward change (just path some parameter):
 
 If your desktop doesn't allow pass argument from shortcut you can use layoutback.sh and bind it to some shortcut to.
 
+You can add ot to autostart. In this case first array parameters will be activated at boot.
 
