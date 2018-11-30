@@ -64,4 +64,6 @@ It is allowed backward change (just path some parameter):
 
 `$ ./layoutgroupmgr.sh b`
 
-If your desktop doesn't allow pass argument from shortcut you can use
+If your desktop doesn't allow pass argument from shortcut you can use layoutback.sh and bind it to some shortcut to.
+
+
