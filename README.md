@@ -8,10 +8,11 @@ Some of this layouts we are using more often than others. So it's good to have g
 For example in my case I wanna have:
 
   US, UA and sometimes switch to PL or CZ. So I can switch layout inside group by CTRL+SHIFT and select group by binded key in my window manager.
-  
+
+So this script perfoms looping over array elemnts and pass `setxkbmap` parameters to set desirable settings.
   
 # Configuration
-On the top of script you will find declaration that you need modify for your purposes:
+On the top of script you will find declaration that you need to modify for your purposes:
 
 ```bash
 kbmodel="pc105"
@@ -68,3 +69,8 @@ If your desktop doesn't allow pass argument from shortcut you can use layoutback
 
 You can add script to autostart. In this case first array parameters will be activated at boot.
 
+Note: 
+
+In Mate to see tray indicator you need to add more than one layout in keyboard settings manually (annoying thing) but anyway switching will work fine.
+
+In KDE you need to mark checkbox to show indicator even if only one layout added.
