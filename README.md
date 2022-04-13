@@ -5,6 +5,8 @@ Often we have such problem if we are using more than two keyboard layouts, you n
 
 Some of this layouts we are using more often than others. So it's good to have groups of layouts to switch between them quikly.
 
+Oh and recently I've discovered that there is 4 layouts limit so this script is easy way to use it as workaround.
+
 For example in my case I wanna have:
 
   US, UA and sometimes switch to PL or CZ. So I can switch layout inside group by CTRL+SHIFT and select group by binded key in my window manager.
